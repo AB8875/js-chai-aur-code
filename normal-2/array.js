@@ -20,10 +20,19 @@
 
 /* slice or splice very important */
 
-// const myNew1=myArr.slice(1,3)
+const myNew1=myArr.slice(1,3)
 // console.log(myNew1);
 //array.slice have ranges first starting and last ending. ending range not included in results
 
  let  spArr=[0,1,2,3,4,5,6]
 let myNew2=spArr.splice(1,2,20)
-console.log(myNew2);
+// console.log(myNew2);
+
+
+// ######################.best way to adding two or more arrays. ##########################
+const webDev=["abhishek","ankit","manish"]
+const webDes=["palak","surekha","sakshi"]
+const allDevelopers=[...webDev,...webDes]
+// console.log(allDevelopers);
+//above this method called spread method
+
